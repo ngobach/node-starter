@@ -1,0 +1,26 @@
+{
+  "name": "node-starter",
+  "version": "0.0.1",
+  "description": "Just a starter project for NodeJS apps.",
+  "main": "src/index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "babel-node ./src/index.js",
+    "build": "babel src --out-dir dist",
+    "lint": "eslint ./src"
+  },
+  "keywords": [
+    "starter"
+  ],
+  "author": "BachNX <mail@ngobach.com>",
+  "license": "ISC"
+}
