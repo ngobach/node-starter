@@ -1,5 +1,17 @@
 {
+  "env": {
+    "es6": true,
+    "commonjs": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
   "extends": "airbnb-base",
+  "plugins": [
+    "ava"
+  ],
   "rules": {
     "no-console": "off"
   }
