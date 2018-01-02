@@ -7,10 +7,9 @@
     "type": "git",
     "url": "https://gitlab.com/thanbaiks/node-starter/"
   },
-  "main": "src/index.js",
-  "dependencies": {
-  },
+  "main": "dist/index.js",
   "devDependencies": {
+    "ava": "^0.24.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
@@ -22,7 +21,8 @@
     "start": "node ./dist/index.js",
     "dev": "babel-node ./src/index.js",
     "build": "babel src --out-dir dist",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "test": "ava"
   },
   "keywords": [
     "starter"

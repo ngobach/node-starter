@@ -1,5 +1,4 @@
-async function hello() {
-  console.log('Hello, world.');
-}
+import Deadpool from './Deadpool';
 
-hello();
+// Some one have to speak
+(new Deadpool()).sayHello();
