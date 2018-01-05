@@ -43,7 +43,6 @@
     "files": [
       "src/**/__test__/*.js"
     ],
-    "failFast": true,
     "require": [
       "babel-register"
     ],
