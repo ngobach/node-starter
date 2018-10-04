@@ -1,6 +1,10 @@
 {
   "presets": [
-    "env",
+    ["env", {
+      "targets": {
+        "node": "8"
+      }
+    }],
     "stage-0"
   ],
   "highlightCode": true

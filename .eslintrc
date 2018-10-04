@@ -5,11 +5,13 @@
     "node": true
   },
   "parserOptions": {
-    "ecmaVersion": 2017,
+    "ecmaVersion": 2018,
     "sourceType": "module"
   },
+  "parser": "babel-eslint",
   "extends": "airbnb-base",
   "plugins": [
+    "dynamic-import-node",
     "ava"
   ],
   "rules": {
