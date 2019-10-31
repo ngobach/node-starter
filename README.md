@@ -1,13 +1,5 @@
-# node-starter
+# Javascript Starter
 
-Just a starter project for NodeJS apps.
+![JS](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/480px-JavaScript-logo.png)
 
-## Manual
-
-```js
-// TODO
-```
-
-## License
-
-(c) BachNX
+Just a starter project for NodeJS/Web apps.
