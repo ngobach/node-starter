@@ -1,26 +1,26 @@
 {
-  "name": "node-starter",
+  "name": "js-starter",
   "version": "0.0.1",
-  "description": "Just a starter project for NodeJS apps.",
-  "homepage": "https://gitlab.com/thanbaiks/node-starter/",
+  "description": "Just a starter project for JS apps.",
+  "homepage": "https://github.com/ngobach/js-starter",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/thanbaiks/node-starter/"
+    "url": "https://github.com/ngobach/js-starter"
   },
   "main": "dist/index.js",
   "devDependencies": {
-    "ava": "^0.24.0",
+    "ava": "^2.4.0",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^10.0.1",
     "babel-plugin-dynamic-import-node": "^2.1.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-ava": "^4.5.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-ava": "^9.0.0",
     "eslint-plugin-import": "^2.14.0",
-    "sinon": "^4.5.0"
+    "sinon": "^7.5.0"
   },
   "scripts": {
     "start": "node ./dist/index.js",
@@ -37,10 +37,6 @@
   "files": [
     "./dist"
   ],
-  "engines": {
-    "node": "^6.0.0",
-    "npm": "^3.0.0"
-  },
   "ava": {
     "files": [
       "src/**/__test__/*.js"
