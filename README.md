@@ -1,5 +1,5 @@
-# Javascript Starter
+# Node Starter
 
-![JS](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/480px-JavaScript-logo.png)
+![Node](https://i1.wp.com/storage.googleapis.com/blog-images-backup/1*Jw9V__6jYhm2amP74D_0lw.png?resize=1200%2C734&ssl=1)
 
-Just a starter project for NodeJS/Web apps.
+Just a starter project for NodeJS apps.
