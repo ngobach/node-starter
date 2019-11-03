@@ -1,11 +1,11 @@
 {
-  "name": "js-starter",
+  "name": "node-starter",
   "version": "0.0.1",
   "description": "Just a starter project for JS apps.",
-  "homepage": "https://github.com/ngobach/js-starter",
+  "homepage": "https://github.com/ngobach/node-starter",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngobach/js-starter"
+    "url": "https://github.com/ngobach/node-starter"
   },
   "main": "dist/index.js",
   "devDependencies": {
